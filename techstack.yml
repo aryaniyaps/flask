@@ -1,0 +1,282 @@
+repo_name: aryaniyaps/flask
+report_id: 989082567261cef5890bc7226a5e5d81
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-20T08:13:11+00:00'
+requested_by: davidism
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/aryaniyaps/flask
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-05-21 04:03:33.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/aryaniyaps/flask
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/examples/tutorial/flaskr/schema.sql
+  detection_source: examples/tutorial/flaskr/schema.sql
+  last_updated_by: David Lord
+  last_updated_on: 2018-02-09 22:39:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aryaniyaps/flask
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/.github/workflows/lock.yaml
+  detection_source: ".github/workflows/lock.yaml"
+  last_updated_by: David Lord
+  last_updated_on: 2020-11-14 00:28:13.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: Armin Ronacher
+  last_updated_on: 2010-04-06 11:23:18.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 2.14.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-08-10 13:49:38.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 6.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/tests.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-05-11 21:28:21.000000000 Z
+- name: Bitdeli
+  description: Build Your Own Analytics
+  website_url: https://bitdeli.com
+  open_source: false
+  hosted_saas: true
+  category: Analytics
+  sub_category: Custom Analytics
+  image_url: https://img.stackshare.io/service/4/81d15a06ca33a8d04a5130889a50a908.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: PyYAML
+  website_url: http://pyyaml.org/wiki/PyYAML
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3730/no-img-open-source.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/aryaniyaps/flask
+  detection_source: Repo Metadata
+- name: Sphinx
+  description: Open source full text search server, designed from the ground up with
+    performance, relevance (aka search quality), and integration simplicity in mind
+  website_url: http://sphinxsearch.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/1598/TtqoAo1V.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-08-10 13:49:38.000000000 Z
+- name: docutils
+  description: "http://t.co/lH6rcPxBja Service Outage and other informational alerts.\r\n\r\nFor
+    support, see ticket/IRC/email information on http://t.co/nE5akSwLqM"
+  website_url: http://docutils.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8480/LI68uG-2_normal.jpg
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2021-02-02 03:27:50.000000000 Z
+- name: mypy
+  description: Developers of mypy, a Python variant with seamless dynamic and static
+    typing
+  website_url: http://mypy-lang.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7350/eaca159133a3901e24ddb407d1235c25_normal.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-08-10 13:49:38.000000000 Z
+- name: tox
+  description: We host the world's documentation. Maintained by @ericholscher &amp;
+    @agjhnsn. Not a support channel, please use GitHub.
+  website_url: https://tox.readthedocs.org/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4825/OhsWgbsr_normal.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2020-05-23 21:03:11.000000000 Z
+- name: virtualenv
+  description: Local environment for python
+  website_url: https://virtualenv.pypa.io/en/latest/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3581/no-img-open-source.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/requirements/dev.txt
+  detection_source: requirements/dev.txt
+  last_updated_by: David Lord
+  last_updated_on: 2021-08-10 13:49:38.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: David Lord
+  last_updated_on: 2021-05-13 23:34:58.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/aryaniyaps/flask/blob/main/setup.py
+  detection_source: setup.py
+  last_updated_by: David Lord
+  last_updated_on: 2021-05-13 23:34:58.000000000 Z
